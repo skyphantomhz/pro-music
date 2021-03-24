@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'feature/homepage/home_page.dart';
+import 'feature/profile/profile_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(title: 'Flutter Demo Home Page'),
+      home: ProfilePage(),
     );
   }
 }
