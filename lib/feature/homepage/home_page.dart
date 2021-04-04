@@ -4,10 +4,10 @@ import 'package:pro_music/data/video.dart';
 import 'package:pro_music/feature/homepage/player.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({Key key, this.title}) : super(key: key);
+  HomePage({Key? key, this.title}) : super(key: key);
 
-  final String title;
-  Video videoSelected;
+  final String? title;
+  Video? videoSelected;
 
   @override
   _HomePageState createState() => _HomePageState();
@@ -142,7 +142,7 @@ class _HomePageState extends State<HomePage> {
 
   Widget getPlayerWidget() {
     if (widget.videoSelected != null) {
-      return PlayerWidget(widget.videoSelected);
+      return PlayerWidget(widget.videoSelected!);
     } else {
       return Container();
     }

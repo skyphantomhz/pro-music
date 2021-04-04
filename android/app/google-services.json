@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1086905123562",
+    "project_id": "premium-music-300403",
+    "storage_bucket": "premium-music-300403.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086905123562:android:dd5c7181a1b01a3f2a4d93",
+        "android_client_info": {
+          "package_name": "com.skyphantomhz.pro_music"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086905123562-i4qsn9fn12lh2nq0jn1vvcc99ras4k45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtJ8QikIykFCIVDFrEX4c86uV5A4CByBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086905123562-i4qsn9fn12lh2nq0jn1vvcc99ras4k45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
