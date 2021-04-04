@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:pro_music/data/fake.dart';
 import 'package:pro_music/data/video.dart';
 import 'package:pro_music/feature/homepage/player.dart';
+import 'package:pro_music/routes/app_pages.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key? key, this.title}) : super(key: key);
@@ -24,11 +26,16 @@ class _HomePageState extends State<HomePage> {
               color: Colors.white,
               padding: EdgeInsets.only(left: 16, right: 16, bottom: 6, top: 6),
               child: Row(children: [
-                Container(
-                    width: 34,
-                    height: 34,
-                    decoration: BoxDecoration(
-                        shape: BoxShape.circle, color: Colors.grey.shade400)),
+                InkWell(
+                  onTap: () {
+                    Get.toNamed(Routes.PROFILE);
+                  },
+                  child: Container(
+                      width: 34,
+                      height: 34,
+                      decoration: BoxDecoration(
+                          shape: BoxShape.circle, color: Colors.grey.shade400)),
+                ),
                 SizedBox(width: 8),
                 Expanded(
                   child: Container(

@@ -14,8 +14,12 @@
       },
       "oauth_client": [
         {
-          "client_id": "1086905123562-i4qsn9fn12lh2nq0jn1vvcc99ras4k45.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "1086905123562-u6d4ptl7rnr7lnpj4k3q6p46g82qopub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skyphantomhz.pro_music",
+            "certificate_hash": "4a4a509fcc7635482bae66952f0637371120ea17"
+          }
         }
       ],
       "api_key": [
@@ -25,12 +29,7 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1086905123562-i4qsn9fn12lh2nq0jn1vvcc99ras4k45.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
